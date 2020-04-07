@@ -1,5 +1,5 @@
 
-Here some variable you should change to your own value. Remember to change it or the terraform will fail
+Here some variable you should change to your own value in file variables.tf. Remember to change it or the terraform will fail
 
 #Please use your own key to create a password hash and copy it to here.
 variable "key_name" {
