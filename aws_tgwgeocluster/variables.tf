@@ -30,6 +30,7 @@ variable "project_name" {
     default = "Geo-Cluster"
 }
 
+#Please use your own key to create a password hash and copy it to here.
 variable "key_name" {
     default = "Use Your Key"
 }
@@ -40,6 +41,6 @@ variable "sickey" {
 
 #Please use "openssl passwd -1" to create a password hash and copy it to here.
 variable "password_hash" {
-    default = "$1$CK9jJ4Sw$JXuJgThRUbslUqGBaC5nK1"
+    default = "xxxxxxxxxxxx"
 }
 
